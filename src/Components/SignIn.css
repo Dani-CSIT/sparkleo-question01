@@ -1,0 +1,88 @@
+.sign-in-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    padding: 44px;
+    margin: auto;
+}
+
+.sign-in-container h1 {
+    color: red;
+    font-weight: 900;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.label {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input {
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkBox a {
+    color: red;
+}
+
+.button {
+    padding: 8px;
+    margin-top: 16px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lose-password {
+    text-align: 'center';
+    margin-top: '1rem';
+}
+
+.lose-password a {
+    color: red;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .sign-in-container {
+        width: 80%;
+    }
+
+    .label,
+    .input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .sign-in-container {
+        width: 100%;
+    }
+
+    .sign-in-form {
+        display: flex;
+    }
+}
